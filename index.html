@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="scripts.js">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Calculator</h3>
+                        
+                        <form class="input" novalidate>
+    
+                            <div class="col-md-12">
+                               <input class="form-control" type="number" name="number" placeholder="number" id="num1" required>
+                            </div>
+    
+                            <div class="col-md-12">
+                                <input class="form-control" type="number" name="number" placeholder="number" id="num2"required>
+                            </div>
+    
+                            <div class="col-md-12">
+                                <input class="form-control" type="number" name="number" placeholder="number"id="num3" required>  
+                            </div>
+    
+                           <div class="result text w-100">
+                              <h2>Result</h2>
+                              <p id="result"></p>
+                           </div>
+    
+    
+                            <div class="col-md-12 mt-3">
+                                <input type="radio" class="btn-check" name="mode" id="min" autocomplete="off" checked="checked" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="min">min</label>
+                                
+                                <input type="radio" class="btn-check" name="mode" id="max" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="max">max</label>    
+                            
+                                <input type="radio" class="btn-check" name="mode" id="median" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="median">median</label>
+                            
+                                <input type="radio" class="btn-check" name="mode" id="mean" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="mean">mean</label>
+                            
+                                <input type="radio" class="btn-check" name="mode" id="range" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="range">range</label>
+                            </div>
+                        
+                            <div class="form-button mt-3">
+                                <button id="cal" type="button" class="btn btn-primary">calculate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
